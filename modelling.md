@@ -27,7 +27,6 @@ database
 
 
 - users
-  - userid
   - handle name
   - password
   - list of what climbs they've previously done --> list of refernces to climbs
@@ -36,6 +35,8 @@ database
 
 
 - climb
+  - id
+  - name
   - grade 
   - start holds
   - finish holds
@@ -43,3 +44,10 @@ database
   - hand/foot holds  (probably stored as ints? | stored on the 3d axis)
   - description of the climb 
   - comments from users
+
+
+
+current todo list
+- hashing / encrpting passwords
+- add comments functionality
+- user/climbid generation
